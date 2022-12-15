@@ -1,0 +1,122 @@
+*{
+  margin:0;
+  padding:0;
+}
+.tbl_full{
+ width:80%;
+margin-top:100px;
+margin-left:250px;
+position: fixed;
+}
+
+.tbl_30{
+    width:50%;
+   margin-top:100px;
+   margin-left:500px;
+   position: fixed;
+   }
+   .tbl_half{
+    width:80%;
+   margin-left:300px;
+   margin-bottom:-500px;
+   margin-top:500px;
+ 
+   }
+   .tbl_half th{
+    border-bottom: 1px solid black;
+    color:gray;
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+   .tbl_half td
+   {
+    color:white;
+    font-size: 20px;
+    padding:20px;
+   }
+
+.tbl_30 td input[type=text]
+   {
+     padding: 5px 50px;
+     border-radius: 20px;
+     font-size: 20px;
+     margin:10px;
+     background-color: black;
+   }
+   .tbl_30 td input[type=number]
+   {
+     padding: 5px 30px;
+     border-radius: 20px;
+     font-size: 20px;
+     background-color: black;
+     margin:10px;
+   }
+   .tbl_30 td textarea[type=text]
+   {
+     padding: 5px 50px;
+     border-radius: 20px;
+     font-size: 20px;
+     margin:10px;
+     background-color: black;
+   }
+
+.tbl_full th{
+    border-bottom: 1px solid black;
+    color:gray;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.tbl_full td{
+    color:white;
+    font-size: 20px;
+    padding:20px;
+    text-align: center;
+}
+.tbl_chef{
+width:80%;
+margin-top:340px;
+margin-bottom: -340px;
+margin-left:400px;
+position: fixed;
+}
+.tbl_chef th{
+border-bottom:1px solid black;
+text-align: center;
+}
+.tbl_chef td{
+  color:white;
+  font-size: 20px;
+  padding:20px;
+  text-align: center;
+}
+.btn-danger{
+color:red;
+border-radius: 20px;
+text-decoration: none;
+padding:10px;
+padding-right: 10px;
+cursor: pointer;
+}
+.btn-primary{
+    border-radius: 20px;
+    padding:10px;
+    margin:auto 100px;
+}
+.btn-secondary{
+  border-radius: 20px;
+  padding:10px;
+  margin:auto 100px;
+  background-color:green;
+  text-decoration: none;
+}
+
+.formy input[type=text]
+   {
+     padding: 5px 50px;
+     border-radius: 20px;
+     font-size: 20px;
+     margin:10px;
+     background-color: black;
+   }
